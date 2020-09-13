@@ -1184,3 +1184,13 @@ and (-webkit-device-pixel-ratio : 3) {
         margin-top: 0;
     }
 }
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (-webkit-device-pixel-ratio : 3) {
+    #projects .project-item{
+        zoom: 90%;
+    }
+}
