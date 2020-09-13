@@ -1111,7 +1111,7 @@ and (-webkit-device-pixel-ratio : 3) {
     #skills .skills{
         flex-direction: column;
         text-align: center;
-        max-width: 500px;
+        max-width: 710px;
         margin: 0 auto;
         padding: 75px 0;
     }
@@ -1129,7 +1129,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     #projects .all-projects{
-        width: 111%;
+        width: 98%;
     }
 
     #projects .project-info h1{
@@ -1141,7 +1141,7 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     #projects .project-img{
-        zoom: 45%;
+        zoom: 100%;
     }
 
     .quotes{
@@ -1155,8 +1155,11 @@ and (-webkit-device-pixel-ratio : 3) {
 
     #contact{
         margin-top: 0;
-        margin-bottom: -40rem;
         margin-left: 2rem;
+    }
+
+    #contact .contact{
+        padding: 0;
     }
 
     #footer h2{
@@ -1175,5 +1178,9 @@ and (-webkit-device-pixel-ratio : 3) {
     #upArrow{
         height: 100px;
         width: 100px;
+    }
+
+    #footer .footer{
+        margin-top: 0;
     }
 }
