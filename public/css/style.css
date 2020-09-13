@@ -1117,11 +1117,11 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     #skills .skills-top{
-        max-width: 350px;
+        max-width: 60rem;
     }
 
     #skills .section-title{
-        font-size: 4rem;
+        font-size: 7rem;
     }
 
     #skills .skills-item h2{
@@ -1165,5 +1165,15 @@ and (-webkit-device-pixel-ratio : 3) {
 
     #hero h1{
         font-size: 3rem;
+    }
+
+    .goToTop{
+        height: 100px;
+        width: 100px;
+    }
+
+    #upArrow{
+        height: 100px;
+        width: 100px;
     }
 }
