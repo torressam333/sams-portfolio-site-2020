@@ -1089,3 +1089,71 @@ p{
         margin-top:20rem;
     }
 }
+
+
+/*Styling for iphone 6-8*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+    .brand h1{
+        padding-top: 1rem;
+        font-size: 2.1rem;
+    }
+
+    #header .hamburger{
+        margin-right: 0;
+    }
+
+    #skills .skills{
+        flex-direction: column;
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 75px 0;
+    }
+
+    #skills .skills-top{
+        max-width: 350px;
+    }
+
+    #skills .section-title{
+        font-size: 4rem;
+    }
+
+    #skills .skills-item h2{
+        font-size: 1.6rem;
+    }
+
+    #projects .all-projects{
+        width: 111%;
+    }
+
+    #projects .project-info h1{
+        font-size: 3rem;
+    }
+
+    #projects .project-info p{
+        font-size: 1.4rem;
+    }
+
+    #projects .project-img{
+        zoom: 45%;
+    }
+
+    .quotes{
+        width: 100%;
+        margin: 5.5em 0;
+    }
+
+    #contact{
+        margin-top: 30rem;
+        margin-bottom: 25rem;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+
+    #footer h2{
+        text-align: center;
+    }
+}
