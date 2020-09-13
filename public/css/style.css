@@ -8,9 +8,8 @@
     font-family: 'Montserrat', sans-serif !important;
 }
 
-html, body {width: auto!important; overflow-x: hidden!important}
-
 html{
+    overflow-x: auto!important;
     font-size: 0.8rem;
     scroll-behavior: smooth;
 }
