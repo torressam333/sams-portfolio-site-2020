@@ -8,8 +8,9 @@
     font-family: 'Montserrat', sans-serif !important;
 }
 
+html, body { overflow-x: auto!important}
+
 html{
-    overflow-x: auto!important;
     font-size: 0.8rem;
     scroll-behavior: smooth;
 }
@@ -1099,11 +1100,12 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
     .brand h1{
         padding-top: 1rem;
-        font-size: 2.1rem;
+        font-size: 4rem;
     }
 
     #header .hamburger{
         margin-right: 0;
+        zoom: 180%;
     }
 
     #skills .skills{
@@ -1147,14 +1149,21 @@ and (-webkit-device-pixel-ratio : 3) {
         margin: 5.5em 0;
     }
 
+    #about{
+        margin-bottom: -45rem;
+    }
+
     #contact{
-        margin-top: 30rem;
-        margin-bottom: 25rem;
+        margin-top: 0;
+        margin-bottom: -40rem;
         margin-left: 2rem;
-        padding: 2rem;
     }
 
     #footer h2{
         text-align: center;
+    }
+
+    #hero h1{
+        font-size: 3rem;
     }
 }
