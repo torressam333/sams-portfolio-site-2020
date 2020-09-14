@@ -1190,7 +1190,15 @@ and (-webkit-device-pixel-ratio : 3) {
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (-webkit-device-pixel-ratio : 3) {
+    #projects .all-projects{
+        width: 100%;
+    }
+
+    #projects .project-img img{
+        max-width: 100%;
+    }
+
     #projects .project-item{
-        zoom: 90%;
+        height: 450px;
     }
 }
