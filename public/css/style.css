@@ -1044,6 +1044,12 @@ p{
         font-size: 1.2rem;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    #projects .all-projects {
+        width: 60vw !important;
+    }
+}
 /* End  Media Query For Desktop */
 
 @media (min-width: 992px){
